@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="keywords"
+            content="black,hole,travel,trip,agency">
+        <title>Contact us | Black Hole Transportation </title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <img class="spin-logo" src="img/black-hole.png" alt="black hole image">
+            <ul class="top-menu">
+                <li><a href="index.html">BHT</a></li>
+                <li><a href="story.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <!-- map -->
+        <section class="map-section">
+            <h1 class="section-title">HOW TO REACH US</h1>
+            <div class="maps">
+                <img class="map-image" src="img/map-galaxy.jpg" alt="">
+                <img class="map-image" src="img/map-system.webp" alt="">
+                <img class="map-image" src="img/map-earth.jpg" alt="" style="filter: brightness(80%);">
+            </div>
+        </section>
+
+        <!-- feedback -->
+        <section class="feedback-section split">
+            <div class="background-image split-image-left feedback-image"></div>
+            <div class="split-content">
+                <h1 class="section-title">FEEDBACK</h1>
+                <p>Have any feedback? You can leave it here!</p>
+                <div class="submission">
+                    <input id="feedback-input" placeholder="will come again :)" type="text">
+                    <a class="large-button" onclick="submitFeeback()">SUBMIT</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- subscribe -->
+        <section class="subscribe-section split">
+            <div class="split-content">
+                <h1 class="section-title">SUBSCRIBE TO OUR NEWSLETTER</h1>
+                <p>Subscribe to our newsletter to not miss any new offers! <del>You can always unsubscribe</del></p>
+                <div class="submission">
+                    <input id="subscription-input" placeholder="noreply@example.com" type="email">
+                    <a class="large-button" onclick="subscribe()">SUBSCRIBE</a>
+                </div>
+            </div>
+            <div class="background-image split-image-right subscribe-image"></div>
+        </section>
+
+        <footer>
+            <p><strong>Black Hole Transportation LLC.</strong></p>
+            <p>All image rights belong to their respective owners, every other right is reserved. Fair use 4lyf m8</p>
+            <p><strong>this website is a non-profit joke pls no ban</strong></p>
+            <p>Earth, Sample Country, Sample Street, 1337</p>
+            <a class="large-button" href="contact.html">CONTACT US</a>
+        </footer>
+
+        <aside class="corner-menu">
+            <button class="corner-menu-button" onclick="scrollUp()">
+                <img class="corner-menu-button-image" src="img/arrow-up-icon.png" alt="go up">
+            </button>
+            <button class="corner-menu-button" onclick="sendEmail()">
+                <img class="corner-menu-button-image" src="img/mail-icon.png" alt="mail us">
+            </button>
+        </aside>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
